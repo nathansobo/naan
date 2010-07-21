@@ -1,0 +1,121 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 140%;
+  background-color: goldenrod;
+  margin: 0;
+}
+
+.grid6 .grid6 {
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 19px;
+  margin-bottom: 3px;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+#content {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 10px 30px 10px;
+  background: white;
+}
+
+#leftColumn {
+  margin-top: 50px;
+  height: 500px;
+}
+
+#leftColumn #slideshow {
+  height: 465px;
+  background: gray;
+}
+
+#rightColumn {
+}
+
+#logo {
+  width: 450px;
+  margin: 50px 0 25px 0;
+}
+
+#navigation {
+  margin-bottom: 25px;
+}
+
+#navigation a {
+  color: #003e57;
+  font-size: 22px;
+}
+
+#navigation a {
+  margin-right: 80px;
+  text-decoration: none;
+}
+
+#navigation a:hover {
+  text-decoration: underline;
+}
+
+#navigation a.last {
+  margin-right: 0;
+}
+
+#contact {
+  position: relative;
+  left: -40px;
+}
+
+#weeklyMenu {
+  margin-top: 40px;
+}
+
+#weeklyMenuHeader {
+  margin-bottom: 20px;
+}
+
+#weeklyMenu .menuSection {
+  margin-bottom: 20px;
+}
+
+#weeklyMenu .menuSection dl {
+  padding: 5px;
+  background: #DCF1F9;
+}
+
+#weeklyMenu h2, #weeklyMenu h1 {
+  margin-top: 10px;
+  margin: 5px;
+}
+
+#weeklyMenu dt {
+  font-weight: bold;
+}
+
+#weeklyMenu dd {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#hoursAndLocation {
+  margin-bottom: 25px;
+}
+
+#hours {
+}
+
+#hours td {
+  padding: 0 14px 7px 0;
+}
