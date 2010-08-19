@@ -21,20 +21,15 @@ h2 {
   margin-bottom: 3px;
 }
 
-.clearFloat {
-  clear: both;
-}
-
 #content {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding: 0 10px 30px 10px;
+  padding: 20px 10px 0px;
   background: white;
 }
 
 #leftColumn {
-  margin-top: 50px;
-  height: 500px;
+  /*height: 485px;*/
 }
 
 #leftColumn #slideshow {
@@ -42,34 +37,13 @@ h2 {
   background: gray;
 }
 
-#rightColumn {
-}
-
 #logo {
   width: 450px;
-  margin: 50px 0 25px 0;
-}
-
-#navigation {
   margin-bottom: 25px;
 }
 
-#navigation a {
-  color: #003e57;
-  font-size: 22px;
-}
-
-#navigation a {
-  margin-right: 80px;
-  text-decoration: none;
-}
-
-#navigation a:hover {
-  text-decoration: underline;
-}
-
-#navigation a.last {
-  margin-right: 0;
+#locationAndContact {
+  margin-bottom: 25px;
 }
 
 #contact {
@@ -78,9 +52,8 @@ h2 {
 }
 
 #weeklyMenu {
-  margin-top: 10px;
+  margin-top: 20px;
 }
-
 
 #weeklyMenu .price {
   font-style: italic;
@@ -114,13 +87,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-#hoursAndLocation {
-  margin-bottom: 25px;
-}
 
-#hours {
-}
-
-#hours td {
+#hours table td {
   padding: 0 14px 7px 0;
 }
